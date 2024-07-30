@@ -16,11 +16,13 @@ Working on the grid layout for a responsive website. DevSlopes.
 Learned how grids are put together. Working on a color palatte for this site.
 Maybe turn it into a tribute page the first time.
 
-[Mockup](./img/mockup.png)
+![Mockup](./img/mockup.png)
 
-[Palatte](./img/palatte.png)
+![Palatte](./img/palatte.png)
 
-[Palatte-2](./img/palatte-two.png)
+
+
+![Palatte-2](./img/palatte-two.png)
 
 ***
 
