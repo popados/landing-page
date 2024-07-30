@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  color: #d4e79e;
+  width: 100%;
+  height: 100vh;
+  /* background-color: #fd3592; */
+  background-color: #212121;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: orange;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(126px, 1440px));
+  grid-template-rows: repeat(10, minmax(126px, 1fr));
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 64px;
+}
+.top-nav {
+  background-color: #212121;
+  grid-column: 1/4;
+  grid-row: 1;
+}
+.header {
+  background-color: #212121;
+  border: 2px solid #fe9ac9;
+  grid-row: 1/4;
+  grid-column: 1/3;
+  padding: 64px;
+  text-align: center;
+  /* align-content: center; */
+  /* justify-self: start; */
+}
+
+.border {
+  border: 4px solid #fd3592;
+  border-radius: 50px 0px 50px 0;
+  padding-top: 100px;
+  background-color: #fe9ac9;
+}
+
+.portrait {
+  background-color: #fe9ac9;
+  height: 304px;
+  width: 304px;
+  border: 2px solid red;
+  margin: 0 0 12px 12px;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+}
+
+.aside {
+  /* background-color: #944bbb; */
+  background-color: #212121;
+  grid-row: 4;
+  grid-column: 2/4;
+}
+
+.main {
+  background-color: #212121;
+  grid-row: 4;
+  grid-column: 1/2;
+}
+
+.container-cards {
+  display: flex;
+  grid-row: 5/9;
+  grid-column: 1/3;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #fd3592;
+}
+
+.card-one,
+.card-two,
+.card-three {
+  /* display: flex; */
+  /* flex-direction: row; */
+  background-color: #212121;
+  height: 460px;
+  width: 360px;
+  border-radius: 25px;
+}
+
+.above-above-footer {
+  /* background-color: #d4e79e; */
+  background-color: #212121;
+  grid-row: 9/10;
+  grid-column: 2/3;
+}
+
+.above-footer {
+  /* background-color: #d4e79e; */
+  background-color: #212121;
+  grid-row: 9 / 10;
+  grid-column: 1/2;
+}
+
+.footer {
+  /* background-color: #d4e79e; */
+  background-color: #fe9ac9;
+  grid-row: 10 / 11;
+  grid-column: 1/3;
+}
